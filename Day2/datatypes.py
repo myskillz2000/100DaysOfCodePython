@@ -6,14 +6,19 @@ calculator."""
 
 # String
 
-print("Hello"[0])
-print("Hello"[-1])
-print("Hello"[:])
+greeting = "Hello"
+print(greeting[0])
+print(greeting[-1])
+print(greeting[:])
 
 # Integer
 
-print(123 + 345)
+sample_add = 123 + 345
+print(sample_add)
 
+# Convert into a string
+
+print(str(sample_add))
 
 # Float
 
