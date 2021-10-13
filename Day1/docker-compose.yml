@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  day1:
+    build: .
+    container_name: day1of100
+    command: python randomname.py
+    volumes:
+      - .:/app
+    
