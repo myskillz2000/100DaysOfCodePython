@@ -1,5 +1,5 @@
-run-compose:
-	docker-compose up --remove-orphans $(options)
+run-build:
+	docker build . $(options) -t day1
 
-teardown:
-	docker-compose down --remove-orphans $(options)
+run:
+	docker run --rm -it day1
