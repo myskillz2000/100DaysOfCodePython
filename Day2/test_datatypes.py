@@ -1,2 +1,6 @@
-def test_add(x,y):
-    return int(x) + int(y)
+import datatypes
+
+def test_add():
+    assert datatypes.add(3,7) == 10
+
+
