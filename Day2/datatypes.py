@@ -6,3 +6,6 @@ def input_then_add():
     val = add(int(num[0]),int(num[1]))
     return val
 
+answer = input_then_add()
+print(answer)
+
