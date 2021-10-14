@@ -6,3 +6,6 @@ run-test:
 
 run-datatypes:
 	docker run --rm -it day2 python datatypes.py
+
+run-bmi:
+	docker run --rm -it day2 python bmi.py
