@@ -6,3 +6,6 @@ A random name generator.  It uses a lot of very basic priniciples to create a na
 
 # Day2
 Create multiple applications to show a working knowledge of Data types.  In addition to the working knowledge make useful conversion and calculations tools for use.
+
+# Day3
+An example of the Single Responsibility Principle in python with classes.  Save the file to the master directory not the Day3 folder, this is done on purpose.
