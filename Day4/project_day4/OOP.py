@@ -1,10 +1,16 @@
 
 # A class to create the product
 class Item:
-    def __init__(self, name, price, quantity=0):
+    def __init__(self, name: str, price: float, quantity=0):
+        # Run validations
+        assert price >=0
+        assert quantity >= 0
+        
+        # assign self objects
         self.name = name
         self.price = price
         self.quantity = quantity
+        
 
 
     def calculate_total(self):
