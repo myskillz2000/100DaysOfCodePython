@@ -9,3 +9,6 @@ Create multiple applications to show a working knowledge of Data types.  In addi
 
 # Day3
 An example of the Single Responsibility Principle in python with classes.  Save the file to the master directory not the Day3 folder, this is done on purpose.
+
+# Day4
+An example of the Open-Closed Principle.
