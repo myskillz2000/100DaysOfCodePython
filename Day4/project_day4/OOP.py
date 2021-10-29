@@ -1,15 +1,17 @@
 
 # A class to create the product
 class Item:
-    def __init__(self, name):
+    def __init__(self, name, price, quantity=0):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
 
-    def calculate_total(self, x, y):
-        return x * y
+
+    def calculate_total(self):
+        return self.price * self.quantity
 
 
 
-item1 = Item("Phone")
-item1.price = 100
-item1.quantity = 5
-total = item1.calculate_total(item1.price, item1.quantity)
-print(total)
+item1 = Item("Phone", 100, 5)
+print(item1.calculate_total())
+
